@@ -38,11 +38,11 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
         modifier = modifier
     )
 
-    Text(text = "asd", modifier = Modifier.run {
-        padding(
-        start = Dp(16F), end = Dp(16F), top = Dp(80F), bottom = Dp(8F)
-    )
-    })
+//    Text(text = "asd", modifier = Modifier.run {
+//        padding(
+//        start = Dp(16F), end = Dp(16F), top = Dp(80F), bottom = Dp(8F)
+//    )
+//    })
 }
 
 @Preview(showBackground = true)
